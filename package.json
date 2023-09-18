@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel --open",
-    "build": "parcel build src/*.html --public-url=/dist/",
+    "build": "parcel build src/*.html --public-url /dist/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
